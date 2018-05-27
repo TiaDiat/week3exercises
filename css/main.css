@@ -1,1 +1,54 @@
+body {
+	padding: 0;
+	margin: 0;
+}
 
+nav {
+	background-color: #000080;
+	top: 0;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0 25px;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 0.5s ease;
+}
+
+li a:hover {
+	background-color: #87cefa;
+	border: 1px solid;
+	color: blue;
+	font-size: 35px;
+}
+
+button {
+	background-color: #adffff;
+	color: darkblue;
+	vertical-align: top;
+	border: 1px solid navy;
+	padding: 10px 30px;
+	width: 30%;
+	height: 50px;
+	font-size: 15px;
+/*	transition: 0.25s ease;*/
+}
+
+button:hover {
+	background-color: #00FFFF;
+	color: #FFF;
+}
+
+div#buttons {
+	text-align: center;
+	padding: 35px 15px;
+}
